@@ -7,6 +7,8 @@ set -e
 # debug
 # set -x
 
+sh erlang $1 $2
+
 # clean up leaking environment
 unset GIT_DIR
 
